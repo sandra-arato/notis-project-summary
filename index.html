@@ -34,11 +34,22 @@
             min-width: 225px;
             width: 24%;
             height: 720px;
+<<<<<<< HEAD
             background: url('https://s3.amazonaws.com/f.cl.ly/items/3y3V373x3l400o01273n/notis.png');
             background-size: 100%;
             background-repeat: no-repeat;
         }
 
+=======
+            /*background: url('https://s3.amazonaws.com/f.cl.ly/items/3y3V373x3l400o01273n/notis.png');*/
+            background-size: 100%;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            text-align: center;
+        }
+
+
+>>>>>>> master
         section {
             display: inline-block;
             box-sizing: border-box;
@@ -109,6 +120,12 @@
   <body>
     <article role="main">
         <div class="video">
+            <video width="329" controls>
+                <source src="NotisDemo.mov" type="video/mov" />
+                <source src="NotisDemo.ogg" type="video/ogg" />
+                <source src="NotisDemo.mp4" type="video/mp4" />
+                Video tag not supported. <a href="NotisDemo.mp4">Download the video</a>
+            </video>
         </div>
         <section>
             <h1>Notis</h1>
@@ -119,7 +136,7 @@
                 This app has been developed and designed from scratch in 48 hours at the Allianz HackRisk hackathon. It uses your Google account to access booked itineraries, then syncs with the Amadeus, Google Maps and Allianz APIs to provide a solution for upcoming trip blockers.
             </p>
             <div>
-                <a href="#" download>Download presentation</a>
+                <a href="Notis_Prezi.pdf" download>Download presentation</a>
                 <a href="https://bitbucket.org/jsclinton/notis/overview">Look at the Back End</a>
                 <a href="https://bitbucket.org/sandraszenti/notis/overview">Look at the Front End</a>
             </div>
